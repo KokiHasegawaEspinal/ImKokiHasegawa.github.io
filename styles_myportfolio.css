@@ -143,7 +143,7 @@ nav .navlinks li a{
 }
 .hero-text .social i{
     color: #e5e5e5;
-    font-size: 18px;
+    font-size: 25px;
     margin-right: 10px;
     transition: 0.5s;
 }
@@ -209,3 +209,45 @@ nav .navlinks li a{
         padding: 40px 0;
     }
 }
+/* start section 2 */
+.portfolio{
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.project_title{
+    width: 70%;
+    height: 10vh;
+    font-size: 24px;
+    font-weight: 500;
+    color: #fff;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.project{
+    width: 60%;
+    height: 25vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+.project_description{
+    width: 50%;
+    height: 25vh;
+    background-color: #007ced;
+}
+.project_image{
+    width: 50%;
+    height: 25vh;
+    background-color: #222;
+}
+/* end section 2 */
